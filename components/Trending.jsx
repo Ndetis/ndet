@@ -36,8 +36,8 @@ const TrendingItem = ({activeItem, item}) => {
     >
       {play ? (
        <Video 
-          source={{ uri : 'https://www.youtube.com/shorts/7MT_PqaXyiQ'}}
-          className="w-52 h-72 rounded-[35px] mt-3 bg-white"
+          source={{ uri : 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'}}
+          className="w-52 h-72 rounded-[35px] mt-3 bg-white/10"
           resizeMode={ResizeMode.CONTAIN}
           useNativeControls
           shouldPlay
